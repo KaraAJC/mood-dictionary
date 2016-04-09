@@ -12,9 +12,19 @@
       <img src=<%= scale.image_url %>>
     <% end %>
     <p><%= scale.description %>
+    <h5>Chords </h5>
+    <div class="row">
+      <div class="col offset-s2 s1"><%= scale.i %></div>
+      <div class="col s1"><%= scale.ii %></div>
+      <div class="col s1"><%= scale.iii %></div>
+      <div class="col s1"><%= scale.iv %></div>
+      <div class="col s1"><%= scale.v %></div>
+      <div class="col s1"><%= scale.vi %></div>
+      <div class="col s1"><%= scale.vii %></div>
+    </div>
 
   <% end %>
-  
+
   <%= link_to 'Back', moods_path %>
 
 </div>
